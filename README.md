@@ -8,7 +8,7 @@ N.B.
 I parametri ambientali, tra cui temperatura dell’aria, umidità relativa dell’aria, concentrazioni di LPG, concentrazioni di CO e presenza di fiamme, sono stati selezionati per determinare le condizioni ambientali indoor in ambito residenziale. Per misurare questi parametri ambientali sono stati utilizzati sensori quali: Sensirion SHT11 (temperatura e umidità), MQ-6 (LPG), MQ-7 (CO), KY-026 (rilevatore di fiamma).
 Il sensore Sensirion SHT11 risulta già integrato sul TelosB, mentre gli altri sensori esterni vengono interfacciati con il mote attraverso il connettore di espansione a 16-pin, sfruttando i canali ADC.
 Un circuito partitore di tensione viene utilizzato per stabilizzare la tensione, poiché i sensori esterni ed il mote, con cui questi si interfacciano, operano a diversi livelli di tensione.
-Il sistema è stato inoltre dotato di attuatori quali: un allarme sonoro, costituito da un buzzer passivo e un led, che entra in funzione qualora venga rilevata la presenza di fiamme, e un sistema di ventilazione che viene attivato qualora le concentrazioni di LPG e CO superano i valori di soglia impostati. Quest’ultimo, per questioni di indisponibilità e spazio, è stato realizzato attraverso l’utilizzo di un semplice led.
+Il sistema è stato inoltre dotato di attuatori quali: un allarme sonoro, costituito da un buzzer passivo e un led, che entra in funzione qualora venga rilevata la presenza di fiamme, e un sistema di ventilazione che viene attivato qualora le concentrazioni di LPG e CO superano i valori di soglia impostati. Quest’ultimo, per questioni di indisponibilità e spazio, è stato realizzato attraverso l’utilizzo di un semplice led che ne simula l'accensione e lo spegnimento
 
 
 
