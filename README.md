@@ -23,7 +23,7 @@ Explore the `docs/` folder for sensor datasheets and the developed system report
 
 - `src/Python_Debug_TelosB/`: source code to be run using Visual Studio Code with integrated Python to verify proper communication between TelosB and Arduino.
 
-- `src/Code_enhancement/`: alternative nesC code to improve its structure.
+- `src/Code_enhancement/`: some alternative nesC code to improve its structure..
 
 
 ## Versione Italiana
@@ -49,4 +49,4 @@ Esplorare la cartella `docs/` per i datasheets dei sensori e il report del siste
 
 - `src/Python_Debug_TelosB/`: codice sorgente da eseguire mediante Visual Studio Code con linguaggio Python integrato per verificare la corretta comunicazione tra TelosB e Arduino.
 
-- `src/Code_enhancement/`: codice nesC alternativo per migliorarne la struttura.
+- `src/Code_enhancement/`: parte del codice nesC alternativo per migliorarne la struttura.
