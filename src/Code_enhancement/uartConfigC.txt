@@ -1,0 +1,21 @@
+configuration uartConfigC {
+
+  provides {
+			interface Resource;
+			interface UartStream;
+  }
+
+}
+
+
+implementation {
+
+  components uartConfigP;
+  components new Msp430Uart0C();
+  
+  Resource = Msp430Uart0C;
+  UartStream = Msp430Uart0C;
+  
+  uartConfigP.Msp430UartConfigure <- Msp430Uart0C.Msp430UartConfigure;
+
+}
