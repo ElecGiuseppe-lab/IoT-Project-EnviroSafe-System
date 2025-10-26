@@ -1,4 +1,4 @@
-# IoT-Project-EnviroSafe-System
+# Smart Indoor Environmental Monitoring and Safeting System
 
 ## English Version
 This project addresses the development of an intelligent system based on IoT (Internet of Things) technology for remote monitoring and indoor security in residential settings. It measures environmental parameters such as temperature, humidity, the presence of flames, hazardous gases, and/or toxic substances, such as propane (LPG) and carbon monoxide (CO). This system uses a sensor node, the core of a Wireless Sensor Network (WSN), in combination with other components.
