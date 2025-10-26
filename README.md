@@ -11,11 +11,9 @@ Un circuito partitore di tensione viene utilizzato per stabilizzare la tensione,
 Il sistema è stato inoltre dotato di attuatori quali: un allarme sonoro, costituito da un buzzer passivo e un led, che entra in funzione qualora venga rilevata la presenza di fiamme, e un sistema di ventilazione che viene attivato qualora le concentrazioni di LPG e CO superano i valori di soglia impostati. Quest’ultimo, per questioni di indisponibilità e spazio, è stato realizzato attraverso l’utilizzo di un semplice led che ne simula l'accensione e lo spegnimento.
 
 ## Documentazione
-
 Esplorare la cartella `docs/` per i datasheets dei sensori e il report del sistema sviluppato.
 
 ## Codice sorgente
-
 - `src/TelosB_firmware/`: codice sorgente nesC per TelosB responsabile di acquisizione, elaborazione e trasmissione dei dati via UART ad Arduino.
   
 - `src/Arduino_firmware/`: codice sorgente per Arduino responsabile di ricezione, ricostruzione e trasmissione dei dati via UART al modulo Wi-Fi del micro-controllore Bolt. Arduino, inoltre, è responsabile del controllo automatico degli attuatori in funzione delle condizioni ambientali.
