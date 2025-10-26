@@ -17,11 +17,11 @@ Explore the `docs/` folder for sensor datasheets and the developed system report
 ### Source Code
 - `src/TelosB_firmware/`: nesC source code for TelosB responsible for data acquisition, processing, and transmission via UART to Arduino.
 
-- `src/Arduino_firmware/`: Arduino source code responsible for data reception, reconstruction, and transmission via UART to the Bolt microcontroller's Wi-Fi module. Arduino is also responsible for automatic actuator control based on environmental conditions.
+- `src/Arduino_firmware/`: source code for Arduino responsible for data reception, reconstruction, and transmission via UART to the Bolt microcontroller's Wi-Fi module. Arduino is also responsible for automatic actuator control based on environmental conditions.
 
-- `src/Bolt_Cloud_IoT/`: Source code for the Bolt cloud platform for creating a dedicated web application accessible via a web browser for remote monitoring.
+- `src/Bolt_Cloud_IoT/`: source code for the Bolt cloud platform for creating a dedicated web application accessible via a web browser for remote monitoring.
 
-- `src/Python_Debug_TelosB/`: Source code to be run using Visual Studio Code with integrated Python to verify proper communication between TelosB and Arduino.
+- `src/Python_Debug_TelosB/`: source code to be run using Visual Studio Code with integrated Python to verify proper communication between TelosB and Arduino.
 
 
 
