@@ -1,0 +1,35 @@
+#include "msp430usart.h"
+
+module uartConfigP {
+
+  provides interface Msp430UartConfigure;
+
+}
+
+implementation {
+
+  msp430_uart_union_config_t msp430_uart_38400_config = {{
+      ubr : UBR_1MHZ_38400,  
+      umctl : UMCTL_1MHZ_38400, 
+      ssel : 0X02, 
+      pena : 0, 
+      pev : 0, 
+      spb : 1, 
+      clen : 1, 
+      listen : 0, 
+      mm : 0, 
+      ckpl : 0, 
+      urxse : 0, 
+      urxeie : 1, 
+      urxwie : 0, 
+      utxe : 1, 
+      urxe : 1,
+
+  }};
+  
+  async command msp430_uart_union_config_t* Msp430UartConfigure.getConfig() {
+    return &msp430_uart_38400_config;
+  }
+
+}
+
